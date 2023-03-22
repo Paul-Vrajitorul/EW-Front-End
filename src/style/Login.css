@@ -1,0 +1,90 @@
+ .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0px;
+    padding: 2px;
+    width: 90%;
+    top: 30%;
+    left: 7%;
+  }
+  
+  .login-form h2 {
+    margin-top: 20%;
+  }
+  
+  .login-form .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .login-form label {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    padding: 20px;
+    background-color: #e5ff00;
+    border: 1px solid #e5ff00;
+    border-radius: 17px;
+    font-size: none;
+    width: 45%;
+    margin-bottom: 25px;
+  }
+  
+  .btn-login{
+    position: fixed;
+    top: 14%;
+    left: 49.4%;
+    transform: translateX(-50%);
+    background-image: url("./img/logare.png");
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 30%;
+    border: none;
+    font-size: 0;
+    cursor: pointer;
+  }
+  
+  .btn-register {
+    background-image: url("./img/inregistrare.png");
+    position: fixed;
+    top: 4%;
+    right: 3%; 
+    background-position: right;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 10%;
+    border: none;
+    cursor: pointer;
+    font-size: 0px;
+  }
+
+  .btn-forgotpass{
+    position: fixed;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("./img/uitare parola.png");
+    width: 35%;
+    height: 10%;
+    top: 87%;
+    right: 32%; 
+    border: none;
+    cursor: pointer;
+  }

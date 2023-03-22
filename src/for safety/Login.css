@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0px;
+  padding: 20px;
+  width: 100%;
+  top: 100px;
+}
+
+.login-form h2 {
+  margin-top: 50%;
+  margin-bottom: 20%;
+}
+
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  padding: 15px;
+  background-color: #e5ff00;
+  border: 1px solid #e5ff00;
+  border-radius: 17px;
+  font-size: 0 px;
+  width: 271%;
+  margin-bottom: 9px;
+}
+
+.btn{
+  position: absolute;
+  top: -184px;
+  left: 124px;
+  transform: translateX(-50%);
+  background-image: url("./img/logare.png");
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 127%;
+  height: 97%;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.btn-register {
+  background-image: url("./img/inregistrare.png");
+  position: absolute;
+  top: -125%;
+  bottom: 200px;
+  right: -330%; 
+  background-position: right;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  border: none;
+  font-size: 0px;
+}

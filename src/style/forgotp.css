@@ -1,0 +1,63 @@
+.forgotp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.forgotp-h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.forgotp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.forgotp-label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.forgotp-input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.forgotp-button {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgotp-button:hover {
+  background-color: #3e8e41;
+}
+
+.forgotp-lbutton {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgotp-lbutton:hover {
+  background-color: #0c7cd5;
+}

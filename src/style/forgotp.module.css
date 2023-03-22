@@ -1,0 +1,10 @@
+.forgotp-container {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/fundal.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }

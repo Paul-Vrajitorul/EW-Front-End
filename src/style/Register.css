@@ -1,0 +1,61 @@
+.register-form-group {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0px;
+  padding: 15px;
+  width: 90%;
+  top: 497px;
+  left: -2%;
+}
+
+.register-form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.register-form-group input {
+  position: relative;
+  width: 40%;
+  right: -48%;
+  padding: 13px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color:#eee945 ;
+  border: 5px solid #eee945;
+  border-radius: 5px;
+}
+
+.register-btn-register{
+  position: absolute;
+  background-color: transparent;
+  background-image: url('./img/inregistrare.png');
+  top: 11%;
+  right: 42.5%; 
+  background-position: right;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+  border: 4px;
+  cursor: pointer;
+  font-size: 0px;
+}
+.register-btn-login{
+  position: absolute;
+  background-color: transparent;
+  background-image: url('./img/BACK\ LOGIN.png');
+  top: -13%;
+  right: 2%; 
+  background-position: right;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 40%;
+  border: 4px;
+  cursor: pointer;
+  font-size: 0px;
+}

@@ -1,0 +1,11 @@
+.login-container {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/fundallog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
